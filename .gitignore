@@ -35,9 +35,6 @@ node_modules
 # Documentation
 docs
 
-# secret keyz
-.env
-
 # VS Code
 launch.json
 jsconfig.json
