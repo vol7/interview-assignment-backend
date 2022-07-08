@@ -1,0 +1,14 @@
+parser: '@babel/eslint-parser'
+extends:
+- standard
+- plugin:import/errors
+- plugin:import/warnings
+- prettier
+plugins:
+- babel
+- promise
+env:
+  node: true
+settings:
+  import/resolver:
+    babel-module: {}
